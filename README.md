@@ -1,4 +1,4 @@
-### Password-Manager
+# Password-Manager
 This Python program is a simple password management tool that allows users to store, update, and easily copy passwords to the clipboard. The passwords are stored using Python's "shelve" module, which allows the data to persist between sessions.
 
 ## Setup:
@@ -14,14 +14,14 @@ This Python program is a simple password management tool that allows users to st
 
 ## Working:
 Press Win + R to open the Run dialog. Or you can run it by opening command prompt.
-# If no argument or more than one arguments are passed , the program will show a menu with options to update or copy a password. Example:
+### If no argument or more than one arguments are passed , the program will show a menu with options to update or copy a password. Example:
 > "py" or "py xxx xxx.."
 
-# Updating a Password:
+## Updating a Password:
 To update or add a password, run the script with the "update" argument:
 > "py update"
 
-# Copying a Password:
+## Copying a Password:
 > Type "pm accountName"
 If accountName exist in the file/ updated previously then it will be copied automatically to the clipboard.
 
